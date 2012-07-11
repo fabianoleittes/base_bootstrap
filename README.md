@@ -1,9 +1,9 @@
 # Base Bootstrap
-==========================
 
-A Rails app skeleton, so I don't have to do it again and again, with Mongoid
-* MongoDB is used as a datastore with the "Mongoid":http://mongoid.org/
-  gem for quick development without schemas or migrations.
+### Rails App with Mongoid
+
+ MongoDB is used as a datastore with the "Mongoid":http://mongoid.org/
+gem for quick development without schemas or migrations.
 
 
 ## Quick start
@@ -23,7 +23,7 @@ Clone the git repo - `git clone https://github.com/fabianoleite/base_bootstrap.g
 * Rails 3.2.x
 * A working installation of "MongoDB":http://www.mongodb.org/ (version 1.6.0 or newer)
 
-* See "Installing Rails 3.2":http://railsapps.github.com/installing-rails.html for detailed instructions and advice.
+See "Installing Rails 3.2.x":http://railsapps.github.com/installing-rails.html for detailed instructions and advice.
 
 ### Installing MongoDB
 
