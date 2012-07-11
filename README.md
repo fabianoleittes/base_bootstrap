@@ -1,4 +1,4 @@
-## Base Bootstrap
+# Base Bootstrap
 ==========================
 
 A Rails app skeleton, so I don't have to do it again and again, with Mongoid
@@ -17,8 +17,20 @@ Clone the git repo - `git clone https://github.com/fabianoleite/base_bootstrap.g
 
 ## Dependencies
 
-# Before running this app, you will need:
+### Before running this app, you will need:
 
 * The Ruby language (version 1.9.3)
 * Rails 3.2.x
 * A working installation of "MongoDB":http://www.mongodb.org/ (version 1.6.0 or newer)
+
+* See "Installing Rails 3.2":http://railsapps.github.com/installing-rails.html for detailed instructions and advice.
+
+### Installing MongoDB
+
+If you don't have MongoDB installed on your computer, you'll need to install it and set it up to be always running on your computer (run at launch). On Mac OS X, the easiest way to install MongoDB is to install "Homebrew":http://mxcl.github.com/homebrew/ and then run the following:
+
+<pre>
+brew install mongodb
+</pre>
+
+Homebrew will provide post-installation instructions to get MongoDB running. The last line of the installation output shows you the MongoDB install location (for example, */usr/local/Cellar/mongodb/1.8.0-x86_64*). You'll find the MongoDB configuration file there. After an installation using Homebrew, the default data directory will be */usr/local/var/mongodb*.
